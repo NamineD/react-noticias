@@ -2,7 +2,7 @@ import React from 'react';
 import Noticia from './Noticia';
 
 const ListadoNoticias = ({noticias}) => {
-  return <div className='row row-cols-3'>
+  return <div className='row'>
       {noticias.map( noticia => (
           <Noticia 
             key={noticias.url}
