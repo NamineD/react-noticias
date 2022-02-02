@@ -2,7 +2,7 @@
   "name": "noticias_api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://NamineD.github.io/react-noticias",
+  "homepage": "http://namined.github.io/react-noticias",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

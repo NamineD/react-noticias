@@ -5,8 +5,8 @@ const Noticia = ({noticia}) => {
 
     const {title, description, url, urlToImage} = noticia;
 
-    return <div className="col s12 m6 l4">
-        <div className="card">
+    return <div className="col s12 m10 l4">
+        <div className={`${styles.cardMaxMin} card`}>
             <div className='card-image'>
                 <img src={urlToImage} alt="error..." />
             </div>
